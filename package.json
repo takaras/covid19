@@ -2,13 +2,21 @@
   "name": "covid_19",
   "version": "0.1.0",
   "private": true,
+  "author": "Dimi",
+  "homepage": "./",
+  "repository": {
+    "type": "git",
+    "directory": "https://github.com/takaras/covid19.git"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "date-fns": "~2.12.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "recharts": "~1.8.5"
   },
   "scripts": {
     "start": "react-scripts start",
